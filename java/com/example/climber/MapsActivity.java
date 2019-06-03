@@ -32,7 +32,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Toast.makeText(this, "Map ready", Toast.LENGTH_SHORT).show();
         Log.d(TAG, "onMapReady: map is ready");
         mMap = googleMap;
-        // Add a marker in Sydney and move the camera
+        // Add a marker
         LatLng bennevis = new LatLng(56.796865, -5.003550);
            mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
             mMap.addMarker(new MarkerOptions().position(bennevis).title("Marker in Ben Nevis"));
@@ -73,7 +73,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
     }
-
+// Device location
     private void getDeviceLocation(){
         Log.d(TAG, "getDeviceLocation: getting the current device location");
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
@@ -116,7 +116,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
-
+// Permission
 
     private void getLocationPermission(){
         Log.d(TAG, "getLocationPermission: getting location permissions");
