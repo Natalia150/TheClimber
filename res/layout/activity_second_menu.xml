@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SecondMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_natalia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:id="@+id/btn_2m1"
+    android:layout_weight="1"
+    android:background="@drawable/btn_rounded"
+    android:padding="10dp"
+    android:textColor="#fff"
+    android:layout_marginTop="15dp"
+    android:textSize="18dp"
+    android:text="Social!"/>
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="60dp"
+    android:background="@drawable/btn_rounded"
+    android:padding="10dp"
+    android:textColor="#fff"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_weight="1"
+    android:id="@+id/btn_2m2"
+    android:textSize="18dp"
+    android:text="Climbing"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_2m3"
+        android:textSize="18dp"
+        android:text="Training"/>
+
+
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:id="@+id/btn_2m4"
+        android:textSize="18dp"
+        android:text="Hiking"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_2m5"
+        android:textSize="18dp"
+        android:text="Guidelines"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_2m6"
+        android:textSize="18dp"
+        android:text="Quiz Game"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_rounded2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/redish"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn_2m7"
+            android:textSize="18dp"
+            android:text="Leave feedback"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_rounded2"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_logout"
+        android:textSize="18dp"
+        android:text="Logout"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrainingChoice">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What would you
+like to do?"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/redish"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btn_t1"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="Hangboard"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_t2"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Plank"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_t3"
+        android:textSize="25dp"
+        android:text="Push-ups"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_t4"
+        android:textSize="25dp"
+        android:text="Surprise me!"/>
+
+
+
+
+</LinearLayout>
