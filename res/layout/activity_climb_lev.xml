@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClimbLev">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="GRADES"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:textSize="28sp"
+        android:textColor="@color/redish"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/scoreCounter"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Points: "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/redish"
+        android:textSize="24sp" />
+
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/l4p"
+        android:text="Grade 4+"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:onClick="CountClick"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/l5"
+        android:text="Grade 5"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grade 5+"
+        android:id="@+id/l5p"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grade 6a"
+        android:id="@+id/l6a"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grade 6a+"
+        android:id="@+id/l6ap"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grade 6b"
+        android:id="@+id/l6b"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grade 6b+"
+        android:id="@+id/l6bp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/btn_lev"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Grade 6c"
+        android:id="@+id/l6c"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/btn_lev"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 6c+"
+            android:id="@+id/l6cp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 7a"
+            android:id="@+id/l7a"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 7a+"
+            android:id="@+id/l7ap"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 7b"
+            android:id="@+id/l7b"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 7b+"
+            android:id="@+id/l7bp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 7c"
+            android:id="@+id/l7c"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 7c+"
+            android:id="@+id/l7cp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade 8a"
+            android:id="@+id/l8a"
+            android:layout_marginBottom="120dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_lev"/>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

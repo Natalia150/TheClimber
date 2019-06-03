@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HikingActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where?"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btn_h1"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:text="Cairngorm"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_h2"
+        android:textSize="25dp"
+        android:text="Fort William"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_h3"
+        android:textSize="25dp"
+        android:text="Glencoe"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_h4"
+        android:textSize="25dp"
+        android:text="Skye"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_h5"
+        android:textSize="25dp"
+        android:text="Loch Leven"/>
+
+
+
+
+
+
+</LinearLayout>
