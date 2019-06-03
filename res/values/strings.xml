@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Climber</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name: </string>
+    <string name="info">Details: </string>
+    <string name="navi">Navigation </string>
+    <string name="info2">Info:</string>
+    <string name="grade">Grade: </string>
+    <string name="check"> Try! </string>
+    <string name="check1"> Navigation </string>
+    <string name="altitude"> Altitude:  </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="content1">Basic knots</string>
+    <string name="content2">To tie the figure-eight knot grab the end of the rope in one hand then extend your arm. and measure out a length from your fist to your opposite shoulder hold. up that Bight and twist it one full rotation. so that the standing part of the rope crosses over the working side.</string>
+    <string name="content3">Belayer</string>
+    <string name="content4">A person who controls the safety rope for a climbera person who turns a rope around a cleat, or belaying pin, to make it hold tight</string>
+
+    <string name="content5">Traditional Climbing</string>
+    <string name="content6">Traditional (or trad) climbing, is a style of rock climbing in which a climber or group of climbers place all gear required to protect against falls, and remove it when a pitch is complete.</string>
+    <string name="content7">Sport Climbing</string>
+    <string name="content8">Sport climbing is a form of rock climbing that relies on permanent anchors fixed to the rock for protection. This is in contrast to traditional climbing where climbers must place removable protection as they climb.</string>
+</resources>
